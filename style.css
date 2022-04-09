@@ -1,0 +1,120 @@
+body {
+    font-family: sans-serif;
+    background-color: rgb(190, 243, 236);
+  }
+  #head-rect {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  #header {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    color: darkorange;
+    padding-top: 7px;
+  }
+  #head-image {
+    padding-top: 10px;
+    height: 50px;
+  }
+  #introduction {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 18px;
+  }
+  #dis-rect {
+    color: red;
+    font-family: UI;
+    padding-left: 10px;
+    text-decoration: underline;
+  }
+  #help {
+    padding-left: 10px;
+    font-size: 15px;
+    font-family: Verdana;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: row;
+  }
+  .img-rect {
+    height: 45px;
+    width: 45px;
+    border: 0;
+    border-radius: 50%;
+    padding-top: 10px;
+    margin-right: 5px;
+  }
+  #textarea {
+    width: 300px;
+    height: 50px;
+    font-size: 16px;
+    margin-right: 10px;
+    background-color: antiquewhite;
+  }
+  #post-button {
+    width: 60px;
+    height: 30px;
+    background-color: rgb(135, 212, 19);
+    color: black;
+    border: 0;
+    border-radius: 50px;
+    cursor: pointer;
+    align-self: center;
+  }
+  #result{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 30px;
+    margin-top: 40px;
+  }
+  .featurE{
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+  }
+  .btnl, .btnr, .btnd{
+      cursor:pointer;
+      padding-top: 13px;
+      padding-left: 25px;
+  }
+
+  .reply-disp{
+    width: 600px;
+    background-color: antiquewhite;
+    margin-left: 10px;
+  }
+
+
+  .btn2{
+    width: 60px;
+    height: 30px;
+    background-color: rgb(135, 212, 19);
+    color: black;
+    border: 0;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-left: 20px;
+  }
+
+  .reply-c{
+    margin-left: 170px;
+  }
+
+  .sub-btnl, .sub-btnr, .sub-btnd{
+    cursor:pointer;
+    padding-top: 13px;
+    padding-right: 10px;
+}
+.sub-btnr, .sub-btnd{
+  cursor:pointer;
+  padding-top: 13px;
+  padding-left: 10px;
+}
+
+.reply-c{
+  border: 0.5px black dashed;
+  margin-top: 3px;
+  padding-left: 5px;
+}
